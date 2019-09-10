@@ -42,17 +42,3 @@ pagehelper:
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
-
-auth:
-  # 是否异步记录用户操作日志
-  openAopLog: true
-  # 单次最大批量入库数量
-  max:
-    batch:
-      insert:
-        num: 1000
-  shiro:
-    # 后端免认证接口 url
-    anonUrl: /login,/logout/**,/regist,/user/check/**,/auth/login
-    # token有效期，单位秒
-    jwtTimeOut: 3600

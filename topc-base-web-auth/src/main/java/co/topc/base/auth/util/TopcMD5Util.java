@@ -1,4 +1,4 @@
-package co.topc.base.auth.common.util;
+package co.topc.base.auth.util;
 
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.util.ByteSource;
