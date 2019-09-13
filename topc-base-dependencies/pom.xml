@@ -32,6 +32,7 @@
     <properties>
         <main.basedir>${basedir}/..</main.basedir>
         <fastjson.version>1.2.58</fastjson.version>
+        <commons-lang3.version>3.9</commons-lang3.version>
         <spring.boot>2.1.6.RELEASE</spring.boot>
         <spring.framework.core>5.1.8.RELEASE</spring.framework.core>
         <snakeyaml.version>1.24</snakeyaml.version>
@@ -42,6 +43,8 @@
         <hibernate-validator.version>6.0.17.Final</hibernate-validator.version>
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
         <maybatis.pagehelper.start>1.2.12</maybatis.pagehelper.start>
+        <json.web.token>0.9.1</json.web.token>
+        <springfox.swagger2>2.9.2</springfox.swagger2>
     </properties>
 
     <dependencyManagement>
@@ -126,7 +129,11 @@
                 <artifactId>spring-webmvc</artifactId>
                 <version>${spring.framework.core}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>${spring.boot}</version>
+            </dependency>
             <!-- spring dependencies end-->
 
             <dependency>
@@ -151,7 +158,28 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox.swagger2}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${springfox.swagger2}</version>
+            </dependency>
 
+
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${json.web.token}</version>
+            </dependency>
         </dependencies>
 
     </dependencyManagement>
