@@ -40,6 +40,8 @@ public final class TopcDateUtils extends DateUtils {
             "yyyy-MM-dd", "yyyy/MM/dd", "yyyyMMdd", "yyyy年MM月dd日",
             "HH:mm", "HH:mm:ss", "yyyy-MM"};
 
+    public static final String DEFAULT_TIME_ZONE = "GMT+8";
+
     /**
      * 日期转成指定格式的日期字符串
      *
