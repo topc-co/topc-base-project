@@ -33,6 +33,26 @@ spring:
     # 合并多个DruidDataSource的监控数据
     #spring.datasource.useGlobalDataSourceStat=true
 
+  #邮箱配置
+  mail:
+    host: smtp.qq.com
+    username: 1783456973@qq.com
+    #QQ邮箱的授权码
+    password: ximbuictctsyihad
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+#设置一个邮件发送人
+mail:
+  fromMail:
+    sender: 1783456973@qq.com
+
 mybatis:
   mapper-locations:
     - classpath:mapper/**/*Mapper.xml
@@ -42,3 +62,9 @@ pagehelper:
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
+
+sms:
+  isSend: true
+  accessKeyId: LTAI4Fg1GudZvRJzDiiNqH4A
+  accessSecret: JQdLTnhZj3gSflHgWK5qWBwYL8ZWnu
+  signName: 智慧物业

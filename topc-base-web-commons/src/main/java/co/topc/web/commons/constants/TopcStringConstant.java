@@ -59,6 +59,8 @@ public class TopcStringConstant {
     public static final String YES = "yes";
     public static final String ONE = "1";
     public static final String ZERO = "0";
+    public static final String TWO = "2";
+    public static final String THREE = "3";
     public static final String DOLLAR_LEFT_BRACE = "${";
     public static final String HASH_LEFT_BRACE = "#{";
     public static final String CRLF = "\r\n";
