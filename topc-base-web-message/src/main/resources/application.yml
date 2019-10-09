@@ -52,7 +52,6 @@ spring:
 mail:
   fromMail:
     sender: 1783456973@qq.com
-
 mybatis:
   mapper-locations:
     - classpath:mapper/**/*Mapper.xml
@@ -68,3 +67,4 @@ sms:
   accessKeyId: LTAI4Fg1GudZvRJzDiiNqH4A
   accessSecret: JQdLTnhZj3gSflHgWK5qWBwYL8ZWnu
   signName: 智慧物业
+  params: count=countSql
