@@ -1,0 +1,24 @@
+{
+  "data": "{\"Message\":\"OK\",\"RequestId\":\"65DC6533-A907-4C0D-A996-7B7FE4A32879\",\"BizId\":\"126305668896843081^0\",\"Code\":\"OK\"}",
+  "httpResponse": {
+    "encoding": "UTF-8",
+    "headers": {
+      "Server": "Jetty(7.2.2.v20101205)",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+      "Connection": "keep-alive",
+      "Access-Control-Max-Age": "172800",
+      "Content-Length": "110",
+      "Access-Control-Allow-Headers": "X-Requested-With, X-Sequence, _aop_secret, _aop_signature",
+      "Date": "Thu, 19 Sep 2019 12:40:43 GMT",
+      "Content-Type": "application/json;charset=utf-8"
+    },
+    "httpContent": "eyJNZXNzYWdlIjoiT0siLCJSZXF1ZXN0SWQiOiI2NURDNjUzMy1BOTA3LTRDMEQtQTk5Ni03QjdGRTRBMzI4NzkiLCJCaXpJZCI6IjEyNjMwNTY2ODg5Njg0MzA4MV4wIiwiQ29kZSI6Ik9LIn0=",
+    "httpContentString": "{\"Message\":\"OK\",\"RequestId\":\"65DC6533-A907-4C0D-A996-7B7FE4A32879\",\"BizId\":\"126305668896843081^0\",\"Code\":\"OK\"}",
+    "httpContentType": "JSON",
+    "status": 200,
+    "success": true,
+    "url": "http://dysmsapi.aliyuncs.com/"
+  },
+  "httpStatus": 200
+}

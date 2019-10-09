@@ -45,6 +45,7 @@
         <maybatis.pagehelper.start>1.2.12</maybatis.pagehelper.start>
         <json.web.token>0.9.1</json.web.token>
         <springfox.swagger2>2.9.2</springfox.swagger2>
+        <com.aliyun>4.0.3</com.aliyun>
     </properties>
 
     <dependencyManagement>
@@ -179,6 +180,22 @@
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt</artifactId>
                 <version>${json.web.token}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-mail</artifactId>
+                <version>${spring.boot}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                <version>${spring.boot}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-core</artifactId>
+                <version>${com.aliyun}</version>
             </dependency>
         </dependencies>
 

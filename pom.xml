@@ -23,6 +23,7 @@
 		<module>topc-base-web-commons</module>
 		<module>topc-base-web-exceptions</module>
 		<module>topc-base-web-auth</module>
+		<module>topc-base-web-message</module>
 	</modules>
 </project>
 
