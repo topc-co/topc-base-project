@@ -22,7 +22,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <apache.shiro.spring>1.4.0</apache.shiro.spring>
+        <apache.shiro.spring>1.7.0</apache.shiro.spring>
         <auth0.jwt>3.4.1</auth0.jwt>
     </properties>
 
